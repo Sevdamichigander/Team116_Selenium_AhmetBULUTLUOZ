@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5ce931f8-e869-4ae1-a235-927140d65509" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/day01_SeleniumIlkTest/C01_SeleniumIlkAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/day01_SeleniumIlkTest/C01_SeleniumIlkAutomation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2R6IKFUohB3nypcfaPymWA22KTY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,20 +63,7 @@
       <recent name="Tests01.day01_SeleniumIlkTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C02_SeleniumDriveriOtomatikKullanma">
-    <configuration name="C01_SeleniumIlkAutomation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tests.day01_SeleniumIlkTest.C01_SeleniumIlkAutomation" />
-      <module name="team116_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.day01_SeleniumIlkTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.C05_DriverManageMethodlari">
     <configuration name="C01_driverOlusturma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day02_webDriverMethodlari.C01_driverOlusturma" />
       <module name="team116_Selenium" />
@@ -102,11 +90,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C03_DriverGetMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_webDriverMethodlari.C03_DriverGetMethodlari" />
+      <module name="team116_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day02_webDriverMethodlari.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_DriverManageMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_webDriverMethodlari.C04_DriverManageMethodlari" />
+      <module name="team116_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day02_webDriverMethodlari.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C05_DriverManageMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_webDriverMethodlari.C05_DriverManageMethodlari" />
+      <module name="team116_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day02_webDriverMethodlari.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C05_DriverManageMethodlari" />
+        <item itemvalue="Application.C04_DriverManageMethodlari" />
+        <item itemvalue="Application.C03_DriverGetMethodlari" />
         <item itemvalue="Application.C02_SeleniumDriveriOtomatikKullanma" />
         <item itemvalue="Application.C01_driverOlusturma" />
-        <item itemvalue="Application.C01_SeleniumIlkAutomation" />
       </list>
     </recent_temporary>
   </component>

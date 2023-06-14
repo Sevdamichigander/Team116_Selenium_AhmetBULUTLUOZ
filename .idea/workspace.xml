@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5ce931f8-e869-4ae1-a235-927140d65509" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day01_SeleniumIlkTest/C01_SeleniumIlkAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01_SeleniumIlkTest/C01_SeleniumIlkAutomation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day02_webDriverMethodlari/C01_driverOlusturma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_webDriverMethodlari/C01_driverOlusturma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day02_webDriverMethodlari/C05_DriverManageMethodlari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_webDriverMethodlari/C05_DriverManageMethodlari.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,7 @@
       <recent name="Tests01.day01_SeleniumIlkTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C04_Locators_Links">
+  <component name="RunManager" selected="Application.C_WebElementMethodlari">
     <configuration name="C01_AmazonAramaTesti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day03_WebElements_Locators.C01_AmazonAramaTesti" />
       <module name="team116_Selenium" />
@@ -118,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C07_TestWalmart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02_webDriverMethodlari.C07_TestWalmart" />
+    <configuration name="C_WebElementMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03_WebElements_Locators.C_WebElementMethodlari" />
       <module name="team116_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02_webDriverMethodlari.*" />
+          <option name="PATTERN" value="day03_WebElements_Locators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C_WebElementMethodlari" />
         <item itemvalue="Application.C04_Locators_Links" />
         <item itemvalue="Application.C03_Locators_AutomationExercise" />
         <item itemvalue="Application.C02_Locators" />
         <item itemvalue="Application.C01_AmazonAramaTesti" />
-        <item itemvalue="Application.C07_TestWalmart" />
       </list>
     </recent_temporary>
   </component>

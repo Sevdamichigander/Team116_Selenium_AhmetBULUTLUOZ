@@ -20,6 +20,12 @@ public class C05_DriverManageMethodlari {
         // Sayfanin yuklenmesi veya islem yapilacak webElementlerinin bulunmasi icin beklenecek maximum sureyi belirler.
         // Driver bu sure dolana kadar verilen gorevin yapilip yapilmadigini kontrol eder.
         // Bu sure icerisinde gorev yapilamazsa exception firlatip calismayi durdurur.
+        /*
+        Exception: Implicit wait throws a NoSuchElementException
+        when the WebDriver cannot find the element within the specified timeout.
+        In contrast, explicit wait throws a TimeoutException when the element doesn't meet the condition
+         within the specified timeout.
+         */
         // herbir gorev icin bu sureyi ayri ayri kullanir.
 
         // Belirledigimiz sureden once islem tamamlanirsa artik beklemez

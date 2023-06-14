@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class C01_driverOlusturma {
     public static void main(String[] args) {
 
-        //System.setProperty("Webdriver.chrome.driver","src/resources/chromedriver_win32.zip"); // path from content root
+        System.setProperty("Webdriver.chrome.driver","src/resources/chromedriver_win32.zip"); // path from content root
 
         // bu class a kulanilacak WebDriver i(chrome, edge vs)
         // ve bu driver ile ilgili dosyalari nerede bulabilecegimizi tanimlar.
@@ -24,19 +24,15 @@ public class C01_driverOlusturma {
         Yani biz chromedriver.exe dosyasini indirmemis olsak bile
         9. satiri yazmasak da Selenium devreye girip kendi driver ini olusturur.
 
-
          */
-
-
-
 
     }
 }
 
-
 /*
 Selenium u projemize dahil edebilmek icin normalde Maven altyapisini kullaniriz.Ancak,
 Maven sart degildir.
+
 Bir framework e Selenium dosyalarini eklerseniz Selenium kutuphanelerini kullanabilirsiniz.
 
 Bir projeye Selenium eklemenin en ilkel yolu

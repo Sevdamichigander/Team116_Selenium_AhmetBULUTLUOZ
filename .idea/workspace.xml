@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5ce931f8-e869-4ae1-a235-927140d65509" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/C01_AmazonAramaTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/C01_AmazonAramaTesti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/C02_Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/C02_Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/C03_Locators_AutomationExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/C03_Locators_AutomationExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/C04_Locators_Links.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/C04_Locators_Links.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/C_WebElementMethodlari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/C05_WebElementMethodlari.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +67,48 @@
       <recent name="Tests01.day01_SeleniumIlkTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C_WebElementMethodlari">
-    <configuration name="C01_AmazonAramaTesti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03_WebElements_Locators.C01_AmazonAramaTesti" />
+  <component name="RunManager" selected="Application.C03_xpath_cssSelector">
+    <configuration name="C01_xpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04_xpath.C01_xpath" />
+      <module name="team116_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day04_xpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_xpath_Text" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04_xpath.C02_xpath_Text" />
+      <module name="team116_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day04_xpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_xpath_cssSelector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04_xpath.C03_xpath_cssSelector" />
+      <module name="team116_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day04_xpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C05_WebElementMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03_WebElements_Locators.C05_WebElementMethodlari" />
       <module name="team116_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -76,47 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_Locators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03_WebElements_Locators.C02_Locators" />
-      <module name="team116_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day03_WebElements_Locators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_Locators_AutomationExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03_WebElements_Locators.C03_Locators_AutomationExercise" />
-      <module name="team116_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day03_WebElements_Locators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_Locators_Links" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03_WebElements_Locators.C04_Locators_Links" />
-      <module name="team116_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day03_WebElements_Locators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C_WebElementMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03_WebElements_Locators.C_WebElementMethodlari" />
+    <configuration name="Deneme2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03_WebElements_Locators.Deneme2" />
       <module name="team116_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C_WebElementMethodlari" />
-        <item itemvalue="Application.C04_Locators_Links" />
-        <item itemvalue="Application.C03_Locators_AutomationExercise" />
-        <item itemvalue="Application.C02_Locators" />
-        <item itemvalue="Application.C01_AmazonAramaTesti" />
+        <item itemvalue="Application.C03_xpath_cssSelector" />
+        <item itemvalue="Application.C02_xpath_Text" />
+        <item itemvalue="Application.C01_xpath" />
+        <item itemvalue="Application.Deneme2" />
+        <item itemvalue="Application.C05_WebElementMethodlari" />
       </list>
     </recent_temporary>
   </component>

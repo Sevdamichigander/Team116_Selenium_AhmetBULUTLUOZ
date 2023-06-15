@@ -33,6 +33,7 @@ public class C01_AmazonAramaTesti {
             bir hazir method'a ihtiyacimiz var
          */
 
+
         WebElement aramaKutusuElementi = driver.findElement(By.id("twotabsearchtextbox"));
         /*
             Bu satirda 3 islem yapiliyor
@@ -42,19 +43,24 @@ public class C01_AmazonAramaTesti {
             3- locate edip, findElement() ile buldugumuz web elementi
                icinde bulundugumuz class'da kullanabilmek icin
                bir WebElement objesine ATAMAK
+
+
          */
 
         aramaKutusuElementi.sendKeys("Nutella");
+
         aramaKutusuElementi.submit();
+
         // Arama sonuclarinin Nutella icerdigini test edin
 
+
         WebElement aramaSonucElementi = driver.findElement(By.className("sg-col-inner"));
+
         /*
         System.out.println(aramaSonucElementi);
         aramaSonucElementi objesini bir WebElement olarak olusturduk
         WebElement bir primitive data turu olmadigindan
         direk yazdirmak istersek referansini yazdirir
-
          */
         System.out.println(aramaSonucElementi.getText());
 

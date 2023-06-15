@@ -22,9 +22,12 @@ public class C04_Locators_Links {
 
         // arama kutusunun yanindaki today's deals linkini tiklayin
 
+
         // WebElement todaysDealsElementi = driver.findElement(By.linkText("Today's Deals"));
         // WebElement todaysDealsElementi = driver.findElement(By.partialLinkText("Deals"));
-        /* WebElement todaysDealsElementi = driver.findElement(By.partialLinkText("Today"));
+
+        /*
+            WebElement todaysDealsElementi = driver.findElement(By.partialLinkText("Today"));
 
             todaysDealsElementi.click();
 
@@ -35,6 +38,7 @@ public class C04_Locators_Links {
 
             ANCAK bu durumda kodun ne yaptigi sonradan bakanlar icin anlasilir olmayabilir
             metin olarak aciklama olan durumlarda bu sekilde kullanim daha guzel olur
+
          */
 
 

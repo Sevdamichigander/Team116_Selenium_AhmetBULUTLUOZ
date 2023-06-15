@@ -25,7 +25,9 @@ public class C03_Locators_AutomationExercise {
 
         //3- Category bolumundeki elementleri locate edin
 
-        List<WebElement> categoryElementleriList = driver.findElements(By.className("panel-heading"));
+        //List<WebElement> categoryElementleriList = driver.findElements(By.className("panel-heading"));
+        List<WebElement> categoryElementleriList = driver.findElements(By.id("accordian"));
+
 
         //4- Category bolumunde 3 element oldugunu test edin
 

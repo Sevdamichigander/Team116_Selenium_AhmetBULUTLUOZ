@@ -1,6 +1,7 @@
 package day03_WebElements_Locators;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -37,7 +38,9 @@ public class C02_Locators {
 
 
         // amazon anasayfaya gidelim
+
         driver.get("https://www.amazon.com");
+
         // arama kutusuna Nutella yazip aratalim
 
        /* WebElement searchBoxElement = driver.findElement(By.id("twotabsearchtextbox"));
@@ -48,15 +51,18 @@ public class C02_Locators {
 
         WebElement searchBoxElement = driver.findElement(By.name("field-keywords"));
 
-        searchBoxElement.sendKeys("Nutella");
-        searchBoxElement.submit();
+        searchBoxElement.sendKeys("Nutella" + Keys.ENTER)  ;
+
+
+        //searchBoxElement.sendKeys("Nutella");
+        //searchBoxElement.submit();
 
         // gosterilen urun resimlerinin 10 dan fazla oldugunu test edin
 
         /*
         List<WebElement> urunIsimElementleriList = driver.findElements(By.className("a-size-base-plus a-color-base a-text-normal"));
 
-        // Locator stratejisi olarak By.className secildiginde class attribute unun degeri space iceriyorsa
+        // Locator stratejisi olarak By.className secildiginde class attribute urun degeri space iceriyorsa
         locate islemi basarisiz olabilir.
 
         if (urunIsimElementleriList.size()>10){
@@ -73,8 +79,6 @@ public class C02_Locators {
             System.out.println("Listelenen urun sayisi testi Failed");
         }
 
-
-
         // 5. urun ismini yazdirin ve ismin Nutella icerdigini test edin
 
         String besinciUrunIsmi = urunIsimElementleriList.get(4).getText();
@@ -83,16 +87,12 @@ public class C02_Locators {
         String expectedIcerik = "Nutella";
         if (besinciUrunIsmi.contains(expectedIcerik)){
             System.out.println("besinci urun ismi testi PASSED");
-        }else{
+        }else {
             System.out.println("besinci urun ismi testi FAILED");
         }
 
-
-
         //Thread.sleep(2000);
         driver.close();
-
-
 
     }
 }

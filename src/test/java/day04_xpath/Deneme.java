@@ -7,14 +7,23 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class C03_xpath_cssSelector {
+public class Deneme {
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("Webdriver.chrome.driver", "src/resources/chromedriver_win32.zip");
+         /*
+
+        1- https://the-internet.herokuapp.com/add_remove_elements/ adresine gidin
+        2- Add Element butonuna basin
+        3- Delete butonu’nun gorunur oldugunu test edin
+        4- Delete tusuna basin
+        5- “Add/Remove Elements” yazisinin gorunur oldugunu test edin
+
+         */
+
+        System.setProperty("Webdriver.chrome.driver","src/resources/chromedriver_win32.zip");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-
 
         //2-  https://www.amazon.com/ adresine gidin
 
@@ -31,56 +40,66 @@ public class C03_xpath_cssSelector {
         //5-  Sayfa basliginin “Spend less” ifadesi icerdigini test edin
 
         String actualTitle = driver.getTitle();
-
         String expectedIcerik = "Spend less";
 
         if (actualTitle.contains(expectedIcerik)){
-            System.out.println("Amazon title testi PASSED");
+            System.out.println("Title testi passed");
         }else {
-            System.out.println("Amazon title testi FAILED");
+            System.out.println("Title testi failed");
         }
+
+
 
         //6-  Gift Cards sekmesine basin
 
-        driver.findElement(By.xpath("//a[text()='Gift Cards']")).click();
+    driver.findElement(By.xpath("//a[text()='Gift Cards']")).click();
+
 
         //7-  Birthday butonuna basin
 
-        Thread.sleep(1000);
+    driver.findElement(By.xpath("//img[@alt='Birthday']")).click();
 
-        driver.findElement(By.xpath("//a[@aria-label='Birthday']")).click();
 
         //8-  Best Seller bolumunden ilk urunu tiklayin
 
-        driver.findElement(By.xpath("(//img[@alt='Amazon.com eGift Card'])[1]")).click();
-
-        // Dikkat!!! 1. urunu secerken [1] yazdik. Ayni zamanda ilk kismi da () icine aldik.
+driver.findElement(By.xpath("(//img[@alt='Amazon.com eGift Card'])[1]")).click();
 
         //9-  Gift card details’den 25 $’i  secin
+        driver.findElement(By.xpath("(//button[@id='gc-mini-picker-amount-1'])[1]")).click();
 
-        driver.findElement(By.xpath("(//button[@id='gc-mini-picker-amount-1' and @value='25'])")).click();
 
         //10-Urun ucretinin 25$ oldugunu test edin
+        WebElement ucretElementi = driver.findElement(By.xpath("(//button[@id='gc-mini-picker-amount-1'])[1]"));
 
-        WebElement ucretElementi = driver.findElement(By.cssSelector("#gc-live-preview-amount"));
+        String expectedUrunUcretiElement = "25$";
+        String actualUrunUcretiElement = ucretElementi.getText();
 
-        String expectedUcret = "25$";
-        String actualUcret= ucretElementi.getText();
-
-        if (expectedUcret.equals(actualUcret)){
-            System.out.println("Urun ucret testi PASSED");
-        } else {
-            System.out.println("Urun ucret testi FAILED\nActual ucret : " + actualUcret);
+        if (actualUrunUcretiElement.equals(expectedUrunUcretiElement)){
+            System.out.println("ucret testi passed");
+        }else{
+            System.out.println("ucret testi failed");
         }
+
+
         //11-Sayfayi kapatin
 
         Thread.sleep(3000);
         driver.close();
 
-        /*
-        Amazon title testi PASSED
-        Urun ucret testi FAILED
-        Actual ucret : $25.00
-         */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

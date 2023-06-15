@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5ce931f8-e869-4ae1-a235-927140d65509" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/Deneme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/Deneme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day04_xpath/C01_xpathHerOkuApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day04_xpath/C01_xpathHerOkuApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day04_xpath/C03_xpath_cssSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day04_xpath/C03_xpath_cssSelector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,7 @@
       <recent name="Tests01.day01_SeleniumIlkTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C03_xpath_cssSelector">
+  <component name="RunManager" selected="Application.day04_xpath.Deneme">
     <configuration name="C01_xpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04_xpath.C01_xpath" />
       <module name="team116_Selenium" />
@@ -76,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_xpath_Text" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04_xpath.C02_xpath_Text" />
+    <configuration name="C01_xpathHerOkuApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04_xpath.C01_xpathHerOkuApp" />
       <module name="team116_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_WebElementMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03_WebElements_Locators.C05_WebElementMethodlari" />
+    <configuration name="Deneme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03_WebElements_Locators.Deneme" />
       <module name="team116_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -115,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Deneme2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03_WebElements_Locators.Deneme2" />
+    <configuration name="day04_xpath.Deneme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04_xpath.Deneme" />
       <module name="team116_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03_WebElements_Locators.*" />
+          <option name="PATTERN" value="day04_xpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C03_xpath_cssSelector" />
-        <item itemvalue="Application.C02_xpath_Text" />
+        <item itemvalue="Application.day04_xpath.Deneme" />
+        <item itemvalue="Application.C01_xpathHerOkuApp" />
         <item itemvalue="Application.C01_xpath" />
-        <item itemvalue="Application.Deneme2" />
-        <item itemvalue="Application.C05_WebElementMethodlari" />
+        <item itemvalue="Application.C03_xpath_cssSelector" />
+        <item itemvalue="Application.Deneme" />
       </list>
     </recent_temporary>
   </component>

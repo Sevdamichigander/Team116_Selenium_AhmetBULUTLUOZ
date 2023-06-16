@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5ce931f8-e869-4ae1-a235-927140d65509" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/Deneme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/Deneme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day04_xpath/C01_xpathHerOkuApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day04_xpath/C01_xpathHerOkuApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day04_xpath/C03_xpath_cssSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day04_xpath/C03_xpath_cssSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/C02_Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/C02_Locators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +64,13 @@
       <recent name="Tests01.day01_SeleniumIlkTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.day04_xpath.Deneme">
-    <configuration name="C01_xpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04_xpath.C01_xpath" />
+  <component name="RunManager" selected="Application.P04_">
+    <configuration name="P01_SeleniumPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.P01_SeleniumPractice" />
       <module name="team116_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04_xpath.*" />
+          <option name="PATTERN" value="SeleniumPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_xpathHerOkuApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04_xpath.C01_xpathHerOkuApp" />
+    <configuration name="P02_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.P02_" />
       <module name="team116_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04_xpath.*" />
+          <option name="PATTERN" value="SeleniumPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_xpath_cssSelector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04_xpath.C03_xpath_cssSelector" />
+    <configuration name="P03_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.P03_" />
       <module name="team116_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04_xpath.*" />
+          <option name="PATTERN" value="SeleniumPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Deneme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03_WebElements_Locators.Deneme" />
+    <configuration name="P04_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.P04_" />
       <module name="team116_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03_WebElements_Locators.*" />
+          <option name="PATTERN" value="SeleniumPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P04_" />
+        <item itemvalue="Application.P03_" />
+        <item itemvalue="Application.P02_" />
+        <item itemvalue="Application.P01_SeleniumPractice" />
         <item itemvalue="Application.day04_xpath.Deneme" />
-        <item itemvalue="Application.C01_xpathHerOkuApp" />
-        <item itemvalue="Application.C01_xpath" />
-        <item itemvalue="Application.C03_xpath_cssSelector" />
-        <item itemvalue="Application.Deneme" />
       </list>
     </recent_temporary>
   </component>

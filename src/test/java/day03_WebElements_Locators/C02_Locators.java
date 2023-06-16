@@ -73,6 +73,7 @@ public class C02_Locators {
         */
 
         List<WebElement> urunIsimElementleriList = driver.findElements(By.xpath("//span[@class='a-size-base-plus a-color-base a-text-normal']"));
+
         if (urunIsimElementleriList.size()>10){
             System.out.println("Listelenen urun sayisi testi Passed");
         }else {
@@ -82,9 +83,11 @@ public class C02_Locators {
         // 5. urun ismini yazdirin ve ismin Nutella icerdigini test edin
 
         String besinciUrunIsmi = urunIsimElementleriList.get(4).getText();
+
         System.out.println("besinci urun ismi : " + besinciUrunIsmi);
 
         String expectedIcerik = "Nutella";
+
         if (besinciUrunIsmi.contains(expectedIcerik)){
             System.out.println("besinci urun ismi testi PASSED");
         }else {

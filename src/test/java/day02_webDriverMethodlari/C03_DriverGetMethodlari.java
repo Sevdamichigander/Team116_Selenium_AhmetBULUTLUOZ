@@ -44,6 +44,7 @@ public class C03_DriverGetMethodlari {
         //System.out.println(driver.getPageSource()); // sayfanin kaynak kodlarini verir
 
         System.out.println(driver.getWindowHandle()); // C68ACFCB199924576FCB3B578606E73E
+
         // Sistemde her olusturulan browser icin unique bir wondow handle degeri atanir.
         // bu handle degeri sayfalar arasinda gecis yapmak icin kullanilir.
         // driver her acilis kapanista yeni bir hash kod degeri atanir.

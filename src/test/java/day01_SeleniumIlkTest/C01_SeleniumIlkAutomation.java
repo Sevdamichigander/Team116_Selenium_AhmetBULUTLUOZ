@@ -9,6 +9,8 @@ public class C01_SeleniumIlkAutomation {
 
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.com");
+
+        driver.close();
     }
 }
 

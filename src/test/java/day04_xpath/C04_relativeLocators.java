@@ -21,7 +21,7 @@ public class C04_relativeLocators {
         //2 ) Berlin’i  3 farkli relative locator ile locate edin
         /*
             Berlin Webelementi'nin HTML kodlari
-            <img id="pid7_thumb" src="bots/sl-berlin-bot.png" class="ui-li-thumb">
+            copy element ile bu kisim geliyor : <img id="pid7_thumb" src="bots/sl-berlin-bot.png" class="ui-li-thumb">
 
             Normalde locate edip kullanabildigimiz bir webelement icin buna ihtiyac yoktur
 
@@ -30,7 +30,7 @@ public class C04_relativeLocators {
 
             Bu soruda ornek olmasi amaciyla BERLIN elemanini LOCATE EDEMEDIGIMIZI varsayiyoruz
 
-            Bu durumda Berlin webelementininetrafindaki web elementleri locate edip
+            Bu durumda Berlin webelementinin etrafindaki web elementleri locate edip
             Berlin'i onlar uzerinden tarif edecegiz
          */
 

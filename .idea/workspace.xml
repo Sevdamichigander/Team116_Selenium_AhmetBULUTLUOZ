@@ -7,7 +7,11 @@
     <list default="true" id="5ce931f8-e869-4ae1-a235-927140d65509" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/C02_Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/C02_Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day01_SeleniumIlkTest/C01_SeleniumIlkAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01_SeleniumIlkTest/C01_SeleniumIlkAutomation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day02_webDriverMethodlari/C03_DriverGetMethodlari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_webDriverMethodlari/C03_DriverGetMethodlari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day02_webDriverMethodlari/C05_DriverManageMethodlari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_webDriverMethodlari/C05_DriverManageMethodlari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/C05_WebElementMethodlari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03_WebElements_Locators/C05_WebElementMethodlari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day04_xpath/C04_relativeLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day04_xpath/C04_relativeLocators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +46,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/33602/IdeaProjects/team116_Selenium/src/resources/selenium-java-4.9.1/lib/guava-31.1-jre.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/33602/IdeaProjects/team116_Selenium/src/resources/selenium-java-4.9.1/lib/guava-31.1-jre.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\33602\IdeaProjects\team116_Selenium\src\resources" />
@@ -64,13 +69,13 @@
       <recent name="Tests01.day01_SeleniumIlkTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P04_">
-    <configuration name="P01_SeleniumPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.P01_SeleniumPractice" />
+  <component name="RunManager" selected="Application.C02_SeleniumDriveriOtomatikKullanma">
+    <configuration name="C01_AmazonAramaTesti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03_WebElements_Locators.C01_AmazonAramaTesti" />
       <module name="team116_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="PATTERN" value="day03_WebElements_Locators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P02_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.P02_" />
+    <configuration name="C01_SeleniumIlkAutomation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01_SeleniumIlkTest.C01_SeleniumIlkAutomation" />
       <module name="team116_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="PATTERN" value="day01_SeleniumIlkTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P03_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.P03_" />
+    <configuration name="C01_driverOlusturma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_webDriverMethodlari.C01_driverOlusturma" />
       <module name="team116_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="PATTERN" value="day02_webDriverMethodlari.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P04_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.P04_" />
+    <configuration name="C02_SeleniumDriveriOtomatikKullanma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_webDriverMethodlari.C02_SeleniumDriveriOtomatikKullanma" />
       <module name="team116_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="PATTERN" value="day02_webDriverMethodlari.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day04_xpath.Deneme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04_xpath.Deneme" />
+    <configuration name="P06_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.P06_" />
       <module name="team116_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04_xpath.*" />
+          <option name="PATTERN" value="SeleniumPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P04_" />
-        <item itemvalue="Application.P03_" />
-        <item itemvalue="Application.P02_" />
-        <item itemvalue="Application.P01_SeleniumPractice" />
-        <item itemvalue="Application.day04_xpath.Deneme" />
+        <item itemvalue="Application.C02_SeleniumDriveriOtomatikKullanma" />
+        <item itemvalue="Application.C01_SeleniumIlkAutomation" />
+        <item itemvalue="Application.C01_driverOlusturma" />
+        <item itemvalue="Application.C01_AmazonAramaTesti" />
+        <item itemvalue="Application.P06_" />
       </list>
     </recent_temporary>
   </component>

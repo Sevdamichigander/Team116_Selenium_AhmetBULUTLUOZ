@@ -24,6 +24,7 @@ public class C05_WebElementMethodlari {
         //3- Sayfada 147 adet link bulundugunu test edin.
 
         List<WebElement> linkElementleriList = driver.findElements(By.tagName("a"));
+
         int expectedLinksayisi = 147;
         int actualLinkSayisi=linkElementleriList.size();
 

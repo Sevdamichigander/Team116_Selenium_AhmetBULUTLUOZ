@@ -31,7 +31,7 @@ public class C06_DriverNavigateMethodlari {
         // yeniden amazon a gidelim
 
         driver.navigate().forward();
-        // back ile geri geldiysel forward ile ileri gidebilirim. yoksa to ile gitmek lazim
+        // back ile geri geldiysem forward ile ileri gidebilirim. yoksa to ile gitmek lazim
 
         Thread.sleep(2000);
         

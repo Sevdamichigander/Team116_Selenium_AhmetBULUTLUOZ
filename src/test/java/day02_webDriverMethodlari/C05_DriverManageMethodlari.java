@@ -15,6 +15,9 @@ public class C05_DriverManageMethodlari {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
+
+
+
         // implicitlyWait Selenium dan gelen DINAMIK bir beklemedir. Yani gerektigi kadar bekletir.
 
         // Sayfanin yuklenmesi veya islem yapilacak webElementlerinin bulunmasi icin beklenecek maximum sureyi belirler.
@@ -29,7 +32,7 @@ public class C05_DriverManageMethodlari {
         // herbir gorev icin bu sureyi ayri ayri kullanir.
 
         // Belirledigimiz sureden once islem tamamlanirsa artik beklemez
-        // islem tamamlanmazsa her halukarda bekledigimiz surenin sonunda beklemeyi birakir.
+        // islem tamamlanmazsa her halukarda belirledigimiz surenin sonunda beklemeyi birakir.
 
 
 
@@ -52,6 +55,27 @@ public class C05_DriverManageMethodlari {
         // Test bitince Thread.sleep leri silmek lazim. Yoksa test cok uzun surer
 
         driver.close();
+
+         /*      wait konusunu ilerde tek basina ele alacagiz
+                ancak her class icin yapmamiz gereken bir ayar oldugu icin burada kisaca deginelim
+                implicitlyWait : driver'a sayfanin yuklenmesi ve kullanacagimiz webelementlerin bulunmasi icin
+                                 bekleyecegi maximum sureyi belirtir.
+                                 driver bu sure icerisinde sayfa yuklenir/web element bulunursa
+                                 beklemeden calismaya devam eder.
+                                 bu sure bittigi halde sayfa yuklenememis/webElement bulunamamissa
+                                 exception vererek calismayi durdurur
+
+                Duration.ofSeconds(15) : Duration class'i Selenium-4 ile gelen zaman class'idir
+                                         Yani driver'a ne kadar bekleyecegini soyler
+                                         Duration.ofSeconds(15) yerine milis,minutes,hours da kullanilabilir
+         */
+
+        /* NOT :    Driver'in istedigimiz islemleri yaparken sorunla karsilasmamasi icin
+                    driver.manage() method'larindan
+                    maximize() ve implicitlyWait() method'larinin her test'te kullanilmasi
+                    FAYDALI OLACAKTIR
+
+         */
 
 
     }
